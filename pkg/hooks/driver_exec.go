@@ -7,7 +7,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"moul.io/assh/pkg/templates"
+	"github.com/doovemax/assh/pkg/templates"
 )
 
 // ExecDriver is a driver that execs some texts to the terminal

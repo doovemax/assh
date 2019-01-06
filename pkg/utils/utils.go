@@ -1,1 +1,1 @@
-package utils // import "moul.io/assh/pkg/utils"
+package utils // import "github.com/doovemax/assh/pkg/utils"

@@ -1,11 +1,11 @@
-package graphviz // import "moul.io/assh/pkg/config/graphviz"
+package graphviz // import "github.com/doovemax/assh/pkg/config/graphviz"
 
 import (
 	"fmt"
 
 	"github.com/awalterschulze/gographviz"
 
-	"moul.io/assh/pkg/config"
+	"github.com/doovemax/assh/pkg/config"
 )
 
 func nodename(input string) string {

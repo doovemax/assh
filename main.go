@@ -1,4 +1,4 @@
-package main // import "moul.io/assh"
+package main // import "github.com/doovemax/assh"
 
 import (
 	"fmt"
@@ -10,9 +10,9 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"moul.io/assh/pkg/commands"
-	loggerpkg "moul.io/assh/pkg/logger"
-	"moul.io/assh/pkg/version"
+	"github.com/doovemax/assh/pkg/commands"
+	loggerpkg "github.com/doovemax/assh/pkg/logger"
+	"github.com/doovemax/assh/pkg/version"
 )
 
 func main() {

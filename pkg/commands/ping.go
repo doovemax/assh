@@ -9,7 +9,7 @@ import (
 	"github.com/urfave/cli"
 	"go.uber.org/zap"
 
-	"moul.io/assh/pkg/config"
+	"github.com/doovemax/assh/pkg/config"
 )
 
 func cmdPing(c *cli.Context) error {

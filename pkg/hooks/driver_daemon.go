@@ -6,7 +6,7 @@ import (
 	"os/exec"
 
 	"go.uber.org/zap"
-	"moul.io/assh/pkg/templates"
+	"github.com/doovemax/assh/pkg/templates"
 )
 
 // DaemonDriver is a driver that daemons some texts to the terminal

@@ -9,7 +9,7 @@ import (
 
 	composeyaml "github.com/docker/libcompose/yaml"
 
-	"moul.io/assh/pkg/utils"
+	"github.com/doovemax/assh/pkg/utils"
 )
 
 // Host defines the configuration flags of a host

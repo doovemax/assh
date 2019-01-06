@@ -1,7 +1,7 @@
 version: 2
 
 defaults: &defaults
-  working_directory: /go/src/moul.io/assh
+  working_directory: /go/src/github.com/doovemax/assh
   docker:
     - image: circleci/golang:1.11
   environment:

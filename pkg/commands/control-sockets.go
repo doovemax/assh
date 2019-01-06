@@ -11,8 +11,8 @@ import (
 	"github.com/urfave/cli"
 	"go.uber.org/zap"
 
-	"moul.io/assh/pkg/config"
-	"moul.io/assh/pkg/controlsockets"
+	"github.com/doovemax/assh/pkg/config"
+	"github.com/doovemax/assh/pkg/controlsockets"
 )
 
 func cmdCsList(c *cli.Context) error {

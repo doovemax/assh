@@ -1,4 +1,4 @@
-package hooks // import "moul.io/assh/pkg/hooks"
+package hooks // import "github.com/doovemax/assh/pkg/hooks"
 
 import (
 	"fmt"

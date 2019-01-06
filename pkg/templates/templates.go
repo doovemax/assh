@@ -1,4 +1,4 @@
-package templates // import "moul.io/assh/pkg/templates"
+package templates // import "github.com/doovemax/assh/pkg/templates"
 
 import (
 	"encoding/json"

@@ -1,9 +1,9 @@
 # assh - *formerly, Advanced SSH config*
-[![GoDoc](https://godoc.org/moul.io/assh?status.svg)](https://godoc.org/moul.io/assh)
+[![GoDoc](https://godoc.org/github.com/doovemax/assh?status.svg)](https://godoc.org/github.com/doovemax/assh)
 ![License](https://img.shields.io/github/license/moul/assh.svg)
 [![CircleCI](https://circleci.com/gh/moul/assh.svg?style=svg)](https://circleci.com/gh/moul/assh)
 [![GitHub release](https://img.shields.io/github/release/moul/assh.svg)](https://github.com/moul/assh/releases)
-[![Go Report Card](https://goreportcard.com/badge/moul.io/assh)](https://goreportcard.com/report/moul.io/assh)
+[![Go Report Card](https://goreportcard.com/badge/github.com/doovemax/assh)](https://goreportcard.com/report/github.com/doovemax/assh)
 
 <img src="https://raw.githubusercontent.com/moul/assh/master/resources/assh.png" width="400" />
 
@@ -146,7 +146,7 @@ Note: `BeforeConnect` will be called for each SSH connection; if you use multipl
 Example of Golang template variables:
 
 ```golang
-// Host: http://godoc.org/moul.io/assh/pkg/config/#Host
+// Host: http://godoc.org/github.com/doovemax/assh/pkg/config/#Host
 {{.Host.Name}}                                  //  localhost
 {{.Host.HostName}}                              //  127.0.0.1
 {{.Host.Port}}                                  //  22
@@ -167,7 +167,7 @@ Note: `OnConnect` is not aware of the authentication process and will always be 
 Example of Golang template variables:
 
 ```golang
-// Host: http://godoc.org/moul.io/assh/pkg/config/#Host
+// Host: http://godoc.org/github.com/doovemax/assh/pkg/config/#Host
 {{.Host.Name}}                                  //  localhost
 {{.Host.HostName}}                              //  127.0.0.1
 {{.Host.Port}}                                  //  22
@@ -176,7 +176,7 @@ Example of Golang template variables:
 {{.Host}}                                       //  {"HostName":"localhost","Port":22","User":"moul","ControlPersist":"yes",...}
 {{printf "%s:%s" .Host.HostName .Host.Port}}    //  localhost:22
 
-// Stats: http://godoc.org/moul.io/assh/pkg/commands/#ConnectionStats
+// Stats: http://godoc.org/github.com/doovemax/assh/pkg/commands/#ConnectionStats
 {{.Stats.ConnectedAt}}                           //  2016-07-20 11:19:23.467900594 +0200 CEST
 ```
 
@@ -189,7 +189,7 @@ Example of Golang template variables:
 Example of Golang template variables:
 
 ```golang
-// Host: http://godoc.org/moul.io/assh/pkg/config/#Host
+// Host: http://godoc.org/github.com/doovemax/assh/pkg/config/#Host
 {{.Host.Name}}                                  //  localhost
 {{.Host.HostName}}                              //  127.0.0.1
 {{.Host.Port}}                                  //  22
@@ -213,7 +213,7 @@ Example of Golang template variables:
 Example of Golang template variables:
 
 ```golang
-// Host: http://godoc.org/moul.io/assh/pkg/config/#Host
+// Host: http://godoc.org/github.com/doovemax/assh/pkg/config/#Host
 {{.Host.Name}}                                  //  localhost
 {{.Host.HostName}}                              //  127.0.0.1
 {{.Host.Port}}                                  //  22
@@ -222,7 +222,7 @@ Example of Golang template variables:
 {{.Host}}                                       //  {"HostName":"localhost","Port":22","User":"moul","ControlPersist":"yes",...}
 {{printf "%s:%s" .Host.HostName .Host.Port}}    //  localhost:22
 
-// Stats: http://godoc.org/moul.io/assh/pkg/commands/#ConnectionStats
+// Stats: http://godoc.org/github.com/doovemax/assh/pkg/commands/#ConnectionStats
 {{.Stats.ConnectedAt}}                           //  2016-07-20 11:19:23.467900594 +0200 CEST
 {{.Stats.WrittenBytes}}                          //  3613
 {{.Stats.WrittenBytesHuman}}                     //  3.6kb
@@ -713,7 +713,7 @@ round-trip min/avg/max = 321µs/503.25µs/641µs
 Get the latest version using GO (recommended way):
 
 ```bash
-go get -u moul.io/assh
+go get -u github.com/doovemax/assh
 ```
 
 **note**: tested with Go1.7 or above

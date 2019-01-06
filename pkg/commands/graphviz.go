@@ -6,8 +6,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/urfave/cli"
 
-	"moul.io/assh/pkg/config"
-	"moul.io/assh/pkg/config/graphviz"
+	"github.com/doovemax/assh/pkg/config"
+	"github.com/doovemax/assh/pkg/config/graphviz"
 )
 
 func cmdGraphviz(c *cli.Context) error {

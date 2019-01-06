@@ -1,4 +1,4 @@
-package version // import "moul.io/assh/pkg/version"
+package version // import "github.com/doovemax/assh/pkg/version"
 
 var (
 	// VERSION should be updated by hand at each release

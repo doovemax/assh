@@ -9,7 +9,7 @@ import (
 	"github.com/urfave/cli"
 	"golang.org/x/crypto/ssh/terminal"
 
-	"moul.io/assh/pkg/config"
+	"github.com/doovemax/assh/pkg/config"
 )
 
 func cmdList(c *cli.Context) error {

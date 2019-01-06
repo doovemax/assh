@@ -1,0 +1,51 @@
+package: github.com/doovemax/assh
+import:
+- package: github.com/Masterminds/sprig
+  version: ^2.17.1
+- package: github.com/awalterschulze/gographviz
+  version: ^2.0.0
+- package: github.com/bugsnag/osext
+- package: github.com/docker/go-units
+  version: ^0.3.3
+- package: github.com/docker/libcompose
+  version: ^0.4.0
+  subpackages:
+  - yaml
+- package: github.com/dustin/go-humanize
+  version: ^1.0.0
+- package: github.com/flynn/go-shlex
+- package: github.com/gin-gonic/gin
+  version: ^1.3.0
+- package: github.com/haklop/gnotifier
+- package: github.com/imdario/mergo
+  version: ^0.3.6
+- package: github.com/mattn/go-zglob
+  version: ^0.0.1
+- package: github.com/mgutz/ansi
+- package: github.com/moul/flexyaml
+- package: github.com/pkg/errors
+  version: ^0.8.1
+- package: github.com/shirou/gopsutil
+  version: ^2.18.12
+  subpackages:
+  - process
+- package: github.com/urfave/cli
+  version: ^1.20.0
+- package: go.uber.org/zap
+  version: ^1.9.1
+  subpackages:
+  - zapcore
+- package: golang.org/x/crypto
+  subpackages:
+  - ssh/terminal
+- package: golang.org/x/net
+  subpackages:
+  - context
+- package: golang.org/x/time
+  subpackages:
+  - rate
+testImport:
+- package: github.com/smartystreets/goconvey
+  version: ^1.6.3
+  subpackages:
+  - convey

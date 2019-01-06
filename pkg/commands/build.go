@@ -8,7 +8,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/urfave/cli"
 
-	"moul.io/assh/pkg/config"
+	"github.com/doovemax/assh/pkg/config"
 )
 
 func cmdBuild(c *cli.Context) error {

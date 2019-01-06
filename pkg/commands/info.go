@@ -10,9 +10,9 @@ import (
 	"github.com/pkg/errors"
 	"github.com/urfave/cli"
 
-	"moul.io/assh/pkg/config"
-	"moul.io/assh/pkg/utils"
-	"moul.io/assh/pkg/version"
+	"github.com/doovemax/assh/pkg/config"
+	"github.com/doovemax/assh/pkg/utils"
+	"github.com/doovemax/assh/pkg/version"
 )
 
 func cmdInfo(c *cli.Context) error {

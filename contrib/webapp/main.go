@@ -1,4 +1,4 @@
-package main // import "moul.io/assh/contrib/webapp"
+package main // import "github.com/doovemax/assh/contrib/webapp"
 
 import (
 	"bytes"
@@ -10,7 +10,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/urfave/cli"
 
-	"moul.io/assh/pkg/config"
+	"github.com/doovemax/assh/pkg/config"
 )
 
 func main() {

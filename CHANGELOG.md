@@ -9,7 +9,7 @@
   * Support inherits on regex hosts ([#298](https://github.com/moul/assh/issues/298)) by [@alenn-m](https://github.com/alenn-m)
   * Print version in `assh info`
   * Switch to go modules
-  * Switch go moul.io/assh canonical domain
+  * Switch go github.com/doovemax/assh canonical domain
   * Move changelog to its own file
   * Switch to golangci-lint for linting
   * Move old webapp to contrib

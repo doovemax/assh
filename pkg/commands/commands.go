@@ -1,4 +1,4 @@
-package commands // import "moul.io/assh/pkg/commands"
+package commands // import "github.com/doovemax/assh/pkg/commands"
 
 import (
 	"log"
@@ -7,7 +7,7 @@ import (
 
 	"github.com/urfave/cli"
 
-	"moul.io/assh/pkg/config"
+	"github.com/doovemax/assh/pkg/config"
 )
 
 func init() {

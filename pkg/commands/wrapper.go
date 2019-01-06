@@ -10,7 +10,7 @@ import (
 	"github.com/urfave/cli"
 	"go.uber.org/zap"
 
-	"moul.io/assh/pkg/config"
+	"github.com/doovemax/assh/pkg/config"
 )
 
 func cmdWrapper(c *cli.Context) error {

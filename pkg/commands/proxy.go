@@ -27,8 +27,8 @@ import (
 	"golang.org/x/net/context"
 	"golang.org/x/time/rate"
 
-	"moul.io/assh/pkg/config"
-	"moul.io/assh/pkg/ratelimit"
+	"github.com/doovemax/assh/pkg/config"
+	"github.com/doovemax/assh/pkg/ratelimit"
 )
 
 type contextKey string
